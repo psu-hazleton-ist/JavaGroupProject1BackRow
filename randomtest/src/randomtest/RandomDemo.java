@@ -9,9 +9,9 @@ public class RandomDemo {
 		Scanner keyboard = new Scanner(System.in);
 		
 //		String[] specials = {"Hello", "Goodbye", "World", "Love", "Weird", "Bizarre", "Excellent", "Lizards"};
-		int[] specialNumbers = {1, 1, 2, 3, 5, 8, 13, 21};
+		int[] specialNumbers = {1, 1, 2, 3, 5, 8, 13, 21, 34};
 		
-		int randomNumber = generator.nextInt(8);
+		int randomNumber = generator.nextInt(9);
 		
 		int guess = 0;
 		
